@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+    <title>Advanced Tip Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="section">
+            <div class="heading">Bill Total :</div>
+            <div class="inputField">
+                <span>$</span>
+                <input type="text" name="" id="totalInput" placeholder="0.00">
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="heading">(%) Tip :</div>
+            <div class="inputField">
+                <span>%</span>
+                <input type="text" name="" id="tipInput" placeholder="0.0">
+            </div>
+        </div>
+
+        <div class="lastSection">
+            <div class="personsSection">
+                <div class="small-heading">Persons:</div>
+                <button class="addOrRemove" id="add">+</button>
+                <span id="numberOfPeople">1</span>
+                <button class="addOrRemove" id="remove">-</button>
+            </div>
+            <div class="resultSection">
+                <div class="large-heading">Total Bill<br>(per person)</div>
+                <div class="result">
+                    <span>$</span>
+                    <span id="billAmount">0.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

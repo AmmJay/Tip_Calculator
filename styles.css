@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+body{
+    background: rgb(37, 5, 54);
+}
+
+.main{
+    border-top: 6px white;
+    border-right: 6px white;
+    border-bottom:6px rgb(140, 88, 230) ;
+    border-left: 6px rgb(140, 88, 230);
+    border-radius: 10px;
+    border-style: double;
+    width: 25%;
+    height: 80vh;
+    margin: 50px auto;
+    background:  rgb(26, 25, 27);
+    display: flex;
+    flex-direction: column;
+}
+
+.section{
+    /*border: 1px solid white;*/
+    margin-top: 1.5rem;
+    /* border-bottom: 1px solid rgb(24, 17, 17); */
+    padding: 10px 40px;
+}
+.heading{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.small-heading{
+    font-size: 1rem;
+    color: white;
+    font-weight: 600;
+}
+
+.large-heading{
+    font-size : 1.3rem;
+    color: rgb(194, 169, 237);
+    font-weight: 700;
+}
+
+.inputField{
+    display: flex;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.inputField span{
+    color: white;
+    font-weight: 600;
+    padding-right: 4px;
+}
+
+input{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    background-color: rgb(135, 102, 188);
+    font-weight: 700;
+    /* color: white; */
+}
+.lastSection{
+    margin-top: 40px;
+    border-top: 1px dotted white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+}
+
+.addOrRemove{
+    border: none;
+    border-radius: 40px;
+    width: 30px;
+    outline: none;
+    /* padding: 7px; */
+    font-size: 1.6rem;
+    font-weight: 600;
+    background-color: rgb(135, 102,188);
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+}
+#numberOfPeople{
+    color: white;
+    margin: 0 5px;
+}
+.result{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 600;
+    /* background-color: rgb(67, 94, 166); */
+}
+
+
+
